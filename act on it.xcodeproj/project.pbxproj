@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D51C80F426AA189100CF06F3 /* createAWalletCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51C80F326AA189100CF06F3 /* createAWalletCard.swift */; };
+		D51C80F926AA190500CF06F3 /* learnYourRightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51C80F826AA190500CF06F3 /* learnYourRightsViewController.swift */; };
+		D51C80FE26AA1C6E00CF06F3 /* yourCustomizedWalletCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51C80FD26AA1C6E00CF06F3 /* yourCustomizedWalletCardViewController.swift */; };
 		D536884726A76876006C5D78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D536884626A76876006C5D78 /* AppDelegate.swift */; };
 		D536884926A76876006C5D78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D536884826A76876006C5D78 /* SceneDelegate.swift */; };
 		D536884B26A76876006C5D78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D536884A26A76876006C5D78 /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D51C80F326AA189100CF06F3 /* createAWalletCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createAWalletCard.swift; sourceTree = "<group>"; };
+		D51C80F826AA190500CF06F3 /* learnYourRightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnYourRightsViewController.swift; sourceTree = "<group>"; };
+		D51C80FD26AA1C6E00CF06F3 /* yourCustomizedWalletCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yourCustomizedWalletCardViewController.swift; sourceTree = "<group>"; };
 		D536884326A76876006C5D78 /* act on it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "act on it.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D536884626A76876006C5D78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D536884826A76876006C5D78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +115,9 @@
 				D536885426A76879006C5D78 /* LaunchScreen.storyboard */,
 				D536885726A76879006C5D78 /* Info.plist */,
 				D536884F26A76876006C5D78 /* act_on_it.xcdatamodeld */,
+				D51C80F326AA189100CF06F3 /* createAWalletCard.swift */,
+				D51C80F826AA190500CF06F3 /* learnYourRightsViewController.swift */,
+				D51C80FD26AA1C6E00CF06F3 /* yourCustomizedWalletCardViewController.swift */,
 			);
 			path = "act on it";
 			sourceTree = "<group>";
@@ -265,6 +274,9 @@
 				D536884726A76876006C5D78 /* AppDelegate.swift in Sources */,
 				D536885126A76876006C5D78 /* act_on_it.xcdatamodeld in Sources */,
 				D536884926A76876006C5D78 /* SceneDelegate.swift in Sources */,
+				D51C80F426AA189100CF06F3 /* createAWalletCard.swift in Sources */,
+				D51C80FE26AA1C6E00CF06F3 /* yourCustomizedWalletCardViewController.swift in Sources */,
+				D51C80F926AA190500CF06F3 /* learnYourRightsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
