@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D51C809B26A91CAF00CF06F3 /* knowYourRightsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51C809A26A91CAF00CF06F3 /* knowYourRightsPage.swift */; };
 		D536884726A76876006C5D78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D536884626A76876006C5D78 /* AppDelegate.swift */; };
 		D536884926A76876006C5D78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D536884826A76876006C5D78 /* SceneDelegate.swift */; };
 		D536884B26A76876006C5D78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D536884A26A76876006C5D78 /* ViewController.swift */; };
@@ -37,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D51C809A26A91CAF00CF06F3 /* knowYourRightsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knowYourRightsPage.swift; sourceTree = "<group>"; };
 		D536884326A76876006C5D78 /* act on it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "act on it.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D536884626A76876006C5D78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D536884826A76876006C5D78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 				D536884626A76876006C5D78 /* AppDelegate.swift */,
 				D536884826A76876006C5D78 /* SceneDelegate.swift */,
 				D536884A26A76876006C5D78 /* ViewController.swift */,
-				D51C809A26A91CAF00CF06F3 /* knowYourRightsPage.swift */,
 				D536884C26A76876006C5D78 /* Main.storyboard */,
 				D536885226A76879006C5D78 /* Assets.xcassets */,
 				D536885426A76879006C5D78 /* LaunchScreen.storyboard */,
@@ -268,7 +265,6 @@
 				D536884726A76876006C5D78 /* AppDelegate.swift in Sources */,
 				D536885126A76876006C5D78 /* act_on_it.xcdatamodeld in Sources */,
 				D536884926A76876006C5D78 /* SceneDelegate.swift in Sources */,
-				D51C809B26A91CAF00CF06F3 /* knowYourRightsPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
