@@ -21,10 +21,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVc-CM-Ghf">
-                                <rect key="frame" x="59" y="353" width="107" height="107"/>
+                                <rect key="frame" x="64" y="330" width="107" height="107"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="wallet card icon"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="create a wallet card!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L7m-mB-Ick">
+                                <rect key="frame" x="59" y="430" width="117" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="13"/>
+                                <color key="textColor" red="0.1478633868" green="0.25324475279999997" blue="0.1149596026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -82,7 +89,7 @@
                                 <rect key="frame" x="33" y="151" width="132" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.14786338679992583" green="0.25324475277512692" blue="0.1149596026160471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HbN-pd-xv6">
@@ -95,7 +102,7 @@
                                 <rect key="frame" x="34" y="242" width="174" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.1478633868" green="0.25324475279999997" blue="0.1149596026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9ww-yw-yjq">
@@ -108,7 +115,7 @@
                                 <rect key="frame" x="34" y="334" width="174" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.1478633868" green="0.25324475279999997" blue="0.1149596026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="53d-wc-O8f">
@@ -121,14 +128,14 @@
                                 <rect key="frame" x="34" y="424" width="137" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.1478633868" green="0.25324475279999997" blue="0.1149596026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(who is running the protest, their legal rep, 501c3, ect...)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rFS-Kg-nxn">
                                 <rect key="frame" x="33" y="447" width="300" height="15"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="12"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.1478633868" green="0.25324475279999997" blue="0.1149596026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YOl-CM-i2s">
@@ -141,7 +148,7 @@
                                 <rect key="frame" x="32" y="532" width="194" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.1478633868" green="0.25324475279999997" blue="0.1149596026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5S5-iJ-lkN">
@@ -154,7 +161,7 @@
                                 <rect key="frame" x="35" y="626" width="269" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.1478633868" green="0.25324475279999997" blue="0.1149596026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FJ2-vf-jE6">
@@ -167,7 +174,7 @@
                                 <rect key="frame" x="35" y="716" width="201" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.1478633868" green="0.25324475279999997" blue="0.1149596026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nac-D1-XmG">
@@ -181,7 +188,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="17"/>
                                 <state key="normal" title="create!">
-                                    <color key="titleColor" systemColor="labelColor"/>
+                                    <color key="titleColor" red="0.1478633868" green="0.25324475279999997" blue="0.1149596026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                         </subviews>
@@ -197,9 +204,6 @@
     <resources>
         <image name="act on it tinier" width="828" height="1792"/>
         <image name="wallet card icon" width="416" height="416"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
