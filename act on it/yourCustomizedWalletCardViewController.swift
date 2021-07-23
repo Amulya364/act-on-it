@@ -8,6 +8,7 @@
 import UIKit
 
 class yourCustomizedWalletCardViewController: UIViewController {
+    
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var emergencyContactLabel: UILabel!
     @IBOutlet weak var allergiesLabel: UILabel!
@@ -16,26 +17,19 @@ class yourCustomizedWalletCardViewController: UIViewController {
     @IBOutlet weak var otherInfoNew: UILabel!
     @IBOutlet weak var protestInfoLabel: UILabel!
     @IBAction func createButton(_ sender: Any) {
-        if let newName = nameTextField.text {
-            nameLabel.text = newName
-        }
-        if let newEmergencyContact = emergencyContactTextField {
-            emergencyContactLabel = newEmergencyContact
-        }
-        if let newLogicalContact = logicalContactTextField {
-            logisticalContactLabel = newLogicalContact
-        }
-        if let newProtestInfo = protestInfoTextField {
-            protestInfoLabel = newProtestInfo
-
-        }
 
     }
     
+    let data = createAWalletCard()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        //let data = createAWalletCard()
         // Do any additional setup after loading the view.
+        
+        //method 1: HARD CODING
+        //method 2: actually figuing out this issue but that's hard & this is technically "due" tonight soooooo
+        //nameLabel.text = data.nameTextField?.text
     }
     
 

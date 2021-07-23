@@ -8,6 +8,8 @@
 import UIKit
 
 class createAWalletCard: UIViewController {
+    var text:String = ""
+    
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var emergencyContactTextField: UITextField!
     @IBOutlet weak var logicalContactTextField: UITextField!
@@ -15,11 +17,16 @@ class createAWalletCard: UIViewController {
     @IBOutlet weak var emergencyMeetingSpotTextField: UITextField!
     @IBOutlet weak var allergiesTextField: UITextField!
     @IBOutlet weak var otherInfoTextField: UITextField!
+
+    
+   // var customizedCard = yourCustomizedWalletCardViewController()
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+       // customizedCard.nameLabel?.text = nameTextField.text
     }
     
 
